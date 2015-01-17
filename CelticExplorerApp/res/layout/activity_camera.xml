@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ie.gmit.computing.celticexplorerapp.CameraActivity" >
+
+      <ImageView
+          android:id="@+id/imageViewCapture"
+          android:layout_width="150dp"
+          android:layout_height="350dp"
+          android:layout_below="@+id/btnNavigate"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="183dp"
+          android:src="@drawable/abc_ab_stacked_solid_dark_holo" />
+
+   <Button
+       android:id="@+id/btnNavigate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/imageView1"
+       android:layout_centerHorizontal="true"
+       android:text="View Tree" />
+   
+      <Button
+       android:id="@+id/btnGPS"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="false"
+       android:text="Get Location" />
+
+      <TextView
+          android:id="@+id/textLat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/btnNavigate"
+          android:layout_marginTop="23dp"
+          android:layout_toLeftOf="@+id/btnNavigate"
+          android:text="Tap Square to Capture Image" />
+
+</RelativeLayout>

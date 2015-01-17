@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CelticExplorerApp</string>
+    <string name="title_activity_camera">CameraPage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tap">Tap Image To Begin</string>
+    <string name="title_activity_tree_nodes">TreeNodesActivity</string>
+    <string name="title_activity_tree_view">TreeViewActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_desion_tree">DesionTreeActivity</string>
+    <string name="title_activity_gps">GPSActivity</string>
+
+</resources>
